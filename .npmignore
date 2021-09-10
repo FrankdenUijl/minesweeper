@@ -1,0 +1,11 @@
+/dist
+/src
+/coverage
+/test
+.gitignore
+.npmignore
+.vscode
+tsconfig.json
+karma.conf.js
+package-lock.json
+webpack.config.js

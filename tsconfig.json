@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "types": ["reflect-metadata", "mocha", "node"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "removeComments": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "./src/**/*.ts",
+    "test/**/**.test.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
