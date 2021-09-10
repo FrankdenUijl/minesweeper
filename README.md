@@ -1,3 +1,5 @@
+https://frankdenuijl.nl/minesweeper/
+
 1. Setup the project:
     a. Install node.js (https://nodejs.org/en/download/)
     b. Open a terminal window in the root folder and run "npm install"
